@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+ 
+    
+}
+section{
+    background-color: hsl(244, 38%, 16%);
+    position: relative;
+    margin: 20vh 10% 20vh 10%;
+    width: 80%;
+    height: 60vh;
+    border-radius: 8px;
+}
+.image{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url(images/image-header-desktop.jpg);
+    background-size: cover;
+    width: 50%;
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: multiply;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.text{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    left: 5%;
+    top: 10%;
+    line-height: 1.5;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    width: 60%;
+    font-weight: bold;
+    font-size: 2em;
+    
+    
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 60%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.8em;
+    
+}
+.nums{
+    display: flex;
+}
+.num1{
+    display: block;
+    margin-right: 20px;
+}
+.num2{
+    display: block;
+    margin-right: 20px;
+}
+.num3{
+    display: block;
+}
+h2{
+   color: hsl(0, 0%, 100%);
+   display: inline;
+   margin-bottom: 0;
+}
+.attribution 
+{ 
+    font-size: 11px; text-align: center; 
+}
+.attribution a 
+{ 
+    color: hsla(0, 0%, 100%, 0.75); 
+}
